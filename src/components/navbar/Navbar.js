@@ -5,7 +5,8 @@ import './Navbar.css';
 
 // We are using BEM -> Block Element Modifier for naming the classname
 
-const Menu = () => (
+const Menu = () => {
+return (
   //wrapping all the writings of the navbar button inside "Menu"
   <>
     <p><a href="#home">Home</a></p>
@@ -14,7 +15,8 @@ const Menu = () => (
     <p><a href="#features">Case Studies</a></p>
     <p><a href="#blog">Library</a></p>
   </>
-)
+ )
+}
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -39,7 +41,7 @@ const Navbar = () => {
             {toggleMenu && (
             <div className="gpt3__navbar-menu_container scale-up-center">
               <div className="gpt3__navbar-menu_container-links">
-                <Menu />       
+                <Menu />
               </div>
               <div className="gpt3__navbar-menu_container-links-sign">
                 <p>Sign in</p>
