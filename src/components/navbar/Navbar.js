@@ -10,8 +10,8 @@ return (
   //wrapping all the writings of the navbar button inside "Menu"
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">What is METAVERSE?</a></p>
-    <p><a href="#possibility">Open AI</a></p>
+    <p><a href="#wgpt3">What is Metaverse?</a></p>
+    <p><a href="#possibility">Meta</a></p>
     <p><a href="#features">Case Studies</a></p>
     <p><a href="#blog">Library</a></p>
   </>

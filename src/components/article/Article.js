@@ -12,7 +12,7 @@ const Article = ({ imgUrl, date, text }) => {
           <p>{date}</p>
           <h3>{text}</h3>
         </div>
-        <p>Read Full Article</p>
+        <p  onClick={() => window.location = 'https://medium.com/building-the-metaverse/web3-interoperability-and-the-metaverse-5b252dc39da'}>Read Full Article</p>
       </div>
   </div>
   );

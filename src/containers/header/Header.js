@@ -7,11 +7,11 @@ const Header = () => {
     return (
         <div className="gpt3__header section__padding" id="home">
           <div className="gpt3__header-content">
-            <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-            <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+            <h1 className="gradient__text">Let&apos;s Build Something In Metaverse</h1>
+            <p>A set of virtual spaces where you can create and explore with other people who aren’t in the same physical space as you. You’ll be able to hang out with friends, work, play, learn, shop, create, and more.</p>
             <div className="gpt3__header-content__input">
               <input type="email" placeholder="Your Email Address" />
-              <button type="button">Get Started</button>
+              <button type="button" onClick={() => window.location = 'mailto:jyotirmoyroy649@gmail.com'} >Get Started</button>
             </div>
             <div className="gpt3__header-content__people">
               <img src={people} />
